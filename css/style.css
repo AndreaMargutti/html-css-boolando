@@ -17,9 +17,25 @@
 
 header {
     height: 80px;
+    margin-bottom: 40px;
     background-color: orangered;
     position: sticky;
     top: 0;
     left: 0;
     box-shadow: 0 0 10px;
+}
+
+/*main*/
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    flex-basis: calc(100% / 3);
+}
+
+img {
+    height: 500px;
 }
