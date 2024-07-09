@@ -184,3 +184,13 @@ footer {
     color: white;
     justify-content: space-between;
 }
+
+.info-legali > span {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.ft-social  i {
+    margin-top: 5px;
+    margin-left: 5px;
+}
