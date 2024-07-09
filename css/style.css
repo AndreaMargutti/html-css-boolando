@@ -9,7 +9,7 @@
 /*utilities*/
 
 .container {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -20,23 +20,29 @@ body {
 
 header {
     height: 80px;
-    margin-bottom: 40px;
     background-color: orangered;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
     box-shadow: 0 0 10px;
+    z-index: 1;
 }
 
 /*main*/
 
+main {
+    padding-top: 120px;
+}
+
 .row {
     display: flex;
     flex-direction: row;
+    margin-bottom: 30px;
 }
 
 .col {
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 3 -10px / 3);
 }
 
 img {
