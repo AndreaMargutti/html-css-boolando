@@ -81,7 +81,7 @@ main {
 }
 
 .col {
-    flex-basis: calc(100% / 3 -10px / 3);
+    flex-basis: calc(100% / 3);
 }
 
 img {
@@ -169,4 +169,18 @@ img {
 
 .favourite:hover {
     color: red;
+}
+
+/*footer*/
+
+footer {
+    background-color: #1A1A1A;
+    height: 80px;
+}
+
+.foot {
+    padding: 20px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
 }
