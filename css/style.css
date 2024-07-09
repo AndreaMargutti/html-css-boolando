@@ -128,3 +128,7 @@ img {
 .card:hover img[alt="esprit - maglione"]{
     content: url(../img/6b.webp);
 }
+
+.favourite:hover {
+    color: red;
+}
