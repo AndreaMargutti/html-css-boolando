@@ -105,3 +105,26 @@ img {
 
 /*hover*/
 
+.card:hover img[alt="levi's - relaxed"]{
+    content: url(../img/1b.webp);
+}
+
+.card:hover img[alt="guess - roses"]{
+    content: url(../img/2b.webp);
+}
+
+.card:hover img[alt="come zucchero filato - pastello"]{
+    content: url(../img/3b.webp);
+}
+
+.card:hover img[alt="levi's - tee"]{
+    content: url(../img/4b.webp);
+}
+
+.card:hover img[alt="maya - tripe bodice"]{
+    content: url(../img/5b.webp);
+}
+
+.card:hover img[alt="esprit - maglione"]{
+    content: url(../img/6b.webp);
+}
