@@ -35,26 +35,37 @@ ul {
     display: flex;
 }
 
+li {
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+}
+
 /*header*/
 
 .navbar {
     height: 80px;
-    border: 1px solid;
     display: flex;
+    align-items: center;
 }
 
 .navbar > * {
     flex-basis: 25%;
-    border: 1px solid;
 }
 
 .navbar-logo {
     flex-grow: 1;
     text-align: center;
+    height: 40%;
 }
 
 .navbar-basket {
     text-align: right;
+}
+
+.navbar-basket > i {
+    margin-left: 5px;
+    color: white;
 }
 /*main*/
 
