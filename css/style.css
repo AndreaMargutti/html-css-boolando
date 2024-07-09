@@ -14,13 +14,14 @@
 }
 
 /*generic*/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     height: 80px;
-    background-color: orangered;
+    background-color: #FF6900;
     position: fixed;
     width: 100%;
     top: 0;
@@ -29,6 +30,32 @@ header {
     z-index: 1;
 }
 
+ul {
+    list-style: none;
+    display: flex;
+}
+
+/*header*/
+
+.navbar {
+    height: 80px;
+    border: 1px solid;
+    display: flex;
+}
+
+.navbar > * {
+    flex-basis: 25%;
+    border: 1px solid;
+}
+
+.navbar-logo {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbar-basket {
+    text-align: right;
+}
 /*main*/
 
 main {
